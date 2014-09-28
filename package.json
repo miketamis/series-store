@@ -1,0 +1,21 @@
+{
+  "name": "series-store",
+  "description": "Stores key infomation for a tvshow",
+  "devDependencies": {
+    "jslint": "^0.3.3",
+    "mocha": "^1.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MikeTamis/series-store.git"
+  },
+  "scripts": {
+    "test": "npm run-script lint && mocha -R spec",
+    "lint": "jslint index.js test/*"
+  },
+  "version": "0.0.1",
+  "dependencies": {
+    "watchjs": "0.0.0"
+  },
+  "private": false
+}

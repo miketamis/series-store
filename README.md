@@ -1,0 +1,3 @@
+# Series-store
+
+#ADD DOCUMENTATION
